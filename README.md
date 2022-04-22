@@ -58,8 +58,6 @@ Once you do this, how you are planning to implement the pseudocode is just a lan
 
 Your first programming language will take some more time to learn. But most languages have a lot in common, so learning one really well automatically skills you up in most of the other languages.
 
-In this workshop you would have learned a lot of the fundamentals of Javascript. What you didn't do is write the pseudocode on your own.
-
 Practice writing pseudocode for other program ideas you have, and then writing the high-level functional code of the same pseudocode in a real programming language like Javascript.
 
 To master Javascript, you should get familiar with advanced concepts like:
@@ -68,7 +66,7 @@ To master Javascript, you should get familiar with advanced concepts like:
 - [classes](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes)
 - [inheritance and prototype-chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
   
-Every new concept takes time to learn, so be realistic about your learning expectations.
+Every new concept takes time to learn, so be take your time and be realistic about expectations.
 
 Once you are done with this part of the workshop:
 - commit your changes to your working branch
