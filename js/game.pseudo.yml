@@ -12,9 +12,7 @@
     - update the clue image with the gif
 
 - When user clicks any answer button:
-    - check if correct answer:
-        - yes, handle "correct_answer" case
-        - no, handle "wrong_answer" case
+    - check if the answer is correct and trigger "answer is correct" or "answer is wrong" event appropriately
 
 - When "correct_answer" case:
     - make the clicked button green by adding the answer_button_correct class for 1 second
@@ -28,9 +26,7 @@
     - update the hearts to show remaining lives
     - make the clicked button red by adding the answer_button_wrong class for 1 second
     - after 1 second:
-        - check if remaining lives has become zero:
-            - yes, handle "game_over" case
-            - no, fetch a new question
+        - check if remaining lives has become zero and trigger "game_over" event or fetch a new question
 
 - When "game_over" case:
     - update the question text to "GAME OVER!"
