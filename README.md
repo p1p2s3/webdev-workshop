@@ -160,4 +160,4 @@ function fetch_clue_image_gif(answer) {
 
 There can be many different ways to design the high-level functions in a programming language. I have taken an approach which works for me as I can reason well about it. Yours may be different. There is no right or wrong answer as long as the app eventually works and we can explain it to someone else easily.
 
-In the next part of the workshop, we will implement all of the function stubs and get our game to work. Switch to the branch **workshop/part3-javascript** to continue.
+In the next part of the workshop, we will implement all of the function stubs and get our game to work. Switch to the branch **workshop/part3-javascript-step3-implementation** to continue.
