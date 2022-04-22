@@ -12,22 +12,6 @@ Check out our website in the browser preview - it looks pretty good now! But the
 
 In this part of the workshop, the goal is to implement the logic of the game.html page of [our game](https://hollywood-quiz.renzil.com).
 
-I usually start coding from scratch by writing down pseudocode. Pseudocode basically captures what (logic) we are planning to implement, without worrying about the how (language).
-
-You can use any language you are comfortable with to write pseudocode (I prefer plain English).
-
-You can view my pseudocode in js/game.pseudo.yml. I like to write it in the form of "when event X happens, do steps A, B, C ...".
-
-> Check out the file js/game.pseudo.yml in the branch **workshop/part3-javascript-step1-pseudocode** to see how I first wrote the pseudocode without any javascript.
-> 
-> Please note that I did not come up with the perfect pseudocode in one shot, but a rough sketch initially. Then I kept updating the pseudocode as I implemented the Javascript.
-
-This makes it very easy to translate pseudocode into high-level code using only functions (functional programming). It also creates a natural event-driven approach to programming that is very easy to implement later.
-
-> Check out the file js/game.js in the branch **workshop/part3-javascript-step2-functional** to see how the pseudocode is directly converted into high-level javascript functions.
-> 
-> Notice how the pseudocode is relatively easier to read and understand what's going on, whereas Javascript code is not.
-
 Once you have the high-level functional code, you can identify the data you will need across functions and create global variables to store them. See the globals at the top of js/game.js in the current branch.
 
 Let's implement the functions with TBD comments in js/game.js! To help you out, I have put some hints in the JS file which you can directly Google.
