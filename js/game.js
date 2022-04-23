@@ -58,6 +58,7 @@ function register_answer_button_clicks() {
 }
 
 function fetch_new_question() {
+    console.log("LOADED")
     // TBD fetch question data from Trivia DB API then call on_question_load(question, answer_options, answer)
     // HINT: "javascript fetch api", "javascript get random number in range", "javascript add element into array at position"
 }
@@ -138,4 +139,5 @@ function go_to_homepage() {
 }
 
 // TBD call on_page_load when the page loads
+window.onload = on_page_load()
 // HINT: "javascript run code after page load"
