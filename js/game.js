@@ -7,6 +7,19 @@ function on_question_load(question, answer_options, answer) {
     fetch_clue_image_gif(answer);
 }
 
+function on_page_load(){
+    register_answer_button_click_handlers();
+    fetch_a_new_question();
+}
+
+function register_answer_button_click_handlers(){
+    //
+}
+
+function fetch_a_new_question(){
+    //
+}
+
 function update_question_text(question) {
     // TBD update the text of the question
 }
