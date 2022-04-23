@@ -1,4 +1,4 @@
-# Part 3 - Javascript
+# Part 3 - Javascript, Step 3 - Implementation
 
 > Before starting this section make sure you have completed Part 2 - CSS (see branch **workshop/part2-css**).
 > 
