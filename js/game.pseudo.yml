@@ -7,7 +7,24 @@
     - check if the answer is correct and trigger "answer is correct" or "answer is wrong" event appropriately
 
 - When answer is correct:
-    - do something
+    - change the button colour to green for 1s
+    - increment level number on top
+    - play the animation for 1s
+    - load next question
+
     
 - When answer is wrong:
-    - do something
+    - change the button colour to red
+    - If number of hearts>0:
+            decrement hearts
+            next question
+      else:
+            display "game over!"
+            reload next game
+
+- when webpage loads:
+    -fetch question
+
+- when image loads:
+    - update the clue image
+
