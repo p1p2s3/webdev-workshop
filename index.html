@@ -14,12 +14,39 @@
 
         <!--Add your CSS rules here-->
         <style>
-            
+
+            html, body{
+                height:100%
+            }
+
+            body {
+                font-family: 'Titan One';
+                color: orange;
+                font-size: 24px;
+                text-align: center;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+
+            a{
+                color :orange;
+                text-decoration: none;
+            }
+
+            a:hover{
+                color:red;
+            }
+
         </style>
     </head>
     <body>
         <h1>Hollywood Quiz</h1>
-        <a href="game.html"><i class="ri-play-circle-fill"></i></a>
-        <h2>PLAY</h2>
+        <div>
+            <a href="game.html"><i class="ri-play-circle-fill ri-3x"></i></a>
+            <h2>PLAY</h2>
+        </div>
+        
     </body>
 </html>
